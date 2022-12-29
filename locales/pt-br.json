@@ -1,0 +1,13 @@
+{
+  "header": {
+    "title": "Nico Flix"
+  },
+  "teste": "teste arquivo",
+  "Form": {
+    "ErrorsMessages": {
+      "MinLength": "Campo deve ter no mínimo {length} caracteres",
+      "MaxLength": "Campo deve ter no máximo {length} caracteres",
+      "Required": "Campo Obrigatório"
+    }
+  }
+}

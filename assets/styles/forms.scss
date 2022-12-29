@@ -1,0 +1,16 @@
+.input-wrapper {
+  display: block;
+  margin-top: 1.2rem;
+  padding: 5px 0px;
+  * {
+    display: block;
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
+
+  input {
+    width: 100%;
+  }
+}
