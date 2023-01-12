@@ -1,3 +1,11 @@
+export interface IValidator {
+  props: IValidatorProperties
+  form: object
+  t: any
+  validateField(): void
+  validateAll(): Boolean
+}
+
 export interface IValidatorProperties {
   [key: string]: IKey
 }

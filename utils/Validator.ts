@@ -2,7 +2,7 @@ import { reactive } from 'vue'
 import { IValidatorFields, IValidatorProperties } from '~/interfaces/IValidator'
 import ValidationRules from '~/enums/ValidationRules'
 
-export default class Validator {
+export default class Validator implements IValidator {
   public props: IValidatorProperties
   public form: object
   public t: any
@@ -49,6 +49,16 @@ export default class Validator {
       }
     })
   } 
+
+  isAllValid() : Boolean {
+    let result = true
+
+    Object.keys(this.props).forEach((key) => {
+      this.validateField(key)
+      result = this.props[key].errors.length == 0
+    })
+    return result
+  }
 
   private typedKeys<T>(o: T): (keyof T)[] {
     return Object.keys(<object>o) as (keyof T)[];
