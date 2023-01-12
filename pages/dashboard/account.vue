@@ -1,0 +1,3 @@
+<template>
+  teste account
+</template>
