@@ -1,5 +1,5 @@
-import { IValidatorFields } from "~~/interfaces/IValidator"
-import Validator from "~~/utils/Validator"
+import { IValidatorFields } from "~/interfaces/IValidator"
+import Validator from "~/utils/Validator"
 
 export default defineNuxtPlugin((nuxtApp) => {
   return {

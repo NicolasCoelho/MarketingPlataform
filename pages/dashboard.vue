@@ -1,6 +1,7 @@
 <template>
   <div>
-teste dash
+    header
+    <NuxtChild />
   </div>
   
 </template>
