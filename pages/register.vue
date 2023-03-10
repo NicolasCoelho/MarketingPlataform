@@ -1,13 +1,11 @@
 <template>
   <main>
     <section>
-      <UserForm @submit="register"/>
+      <FormsUser @submit="register"/>
     </section>
   </main>
 </template>
 <script setup>
-import UserForm from '~/components/forms/UserForm.vue'
-
 const register = (payload) => {
   // TODO: Authentication
   console.log(payload)

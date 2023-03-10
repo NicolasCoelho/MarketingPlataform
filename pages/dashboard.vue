@@ -1,10 +1,5 @@
 <template>
-  <div>
-    header
-    <NuxtChild />
-  </div>
-  
+  <NuxtLayout name="dashboard">
+    <NuxtPage />
+  </NuxtLayout>
 </template>
-<script setup lang="ts">
-
-</script>

@@ -1,9 +1,3 @@
 <template>
-  <div>
-teste dash
-  </div>
   
 </template>
-<script setup lang="ts">
-
-</script>

@@ -2,6 +2,25 @@
 
 * {
   font-family: "Roboto";
+  color: var(--text-color);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+main {
+  padding: 8px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .full {

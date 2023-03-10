@@ -1,5 +1,5 @@
 import { reactive } from 'vue'
-import { IValidatorFields, IValidatorProperties } from '~/interfaces/IValidator'
+import { IValidator, IValidatorFields, IValidatorProperties } from '~/interfaces/IValidator'
 import ValidationRules from '~/enums/ValidationRules'
 
 export default class Validator implements IValidator {

@@ -20,7 +20,10 @@
         </template>
       </Head>
       <Body>
-        <slot />
+        <DashboardHeader />
+        <main>
+          <slot />
+        </main>
       </Body>
     </Html>
   </div>

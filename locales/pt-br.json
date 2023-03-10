@@ -1,8 +1,16 @@
 {
-  "header": {
-    "title": "Nico Flix"
+  "Head": {
+    "Title": "Nico Flix"
   },
-  "teste": "teste arquivo",
+  "Dashboard": {
+    "Header": {
+      "Menu": {
+        "Projects": "Projetos",
+        "Leeds": "Leeds",
+        "Reports": "Reports"
+      }
+    }
+  },
   "Form": {
     "ErrorsMessages": {
       "MinLength": "Campo deve ter no mínimo {length} caracteres",
